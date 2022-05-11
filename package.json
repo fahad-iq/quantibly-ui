@@ -6,10 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-lib": "vue-cli-service build --target lib index.js",
+    "watch-lib": "vue-cli-service build --watch --target lib index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
-  "main": "index.js",
+  "main": "index",
+  "typings": "index",
   "files": ["dist/*"],
   "dependencies": {
     "core-js": "^3.8.3",
