@@ -5,9 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
+  "main": "index.js",
+  "files": ["dist/*"],
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
